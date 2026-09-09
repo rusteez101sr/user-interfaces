@@ -1,0 +1,54 @@
+/* External CSS: element, class, and ID selectors. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #202c3a;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.7;
+}
+header { background-color: #202c3a; color: #fff; padding: 10px 0; }
+nav ul { list-style: none; display: flex; justify-content: center; padding: 0; margin: 12px 0; }
+nav li { margin: 0 20px; }
+nav a { text-decoration: none; color: #fff; padding: 6px 0; }
+nav a:hover { text-decoration: underline; text-underline-offset: 6px; }
+a { color: #165b8a; text-underline-offset: 4px; overflow-wrap: anywhere; }
+a:hover { color: #933d24; }
+nav a:hover { color: #fff; }
+a:focus-visible { outline: 3px solid #dd784a; outline-offset: 5px; }
+img { max-width: 100%; height: auto; display: block; }
+h1, h2, h3 { line-height: 1.15; color: #172536; }
+h1 { font-size: clamp(2.5rem, 6vw, 4rem); letter-spacing: -0.04em; margin: 16px 0; }
+h2 { font-size: 2rem; margin: 8px 0 28px; }
+h3 { font-size: 1.5rem; margin: 10px 0 16px; }
+p { margin: 0 0 16px; }
+.accent { color: #ac4627; }
+.eyebrow { font-size: 0.875rem; font-weight: 700; letter-spacing: 0.1em; color: #53657b; }
+.role { font-size: 1.2rem; font-weight: 700; }
+.about-layout { display: grid; grid-template-columns: 1fr 230px; gap: 48px; align-items: center; }
+.profile { margin: 0; }
+.profile img { border-radius: 8px; border: 1px solid #ccd5df; }
+figcaption { font-size: 0.875rem; color: #53657b; margin-top: 12px; text-align: center; }
+#about { border-bottom: 1px solid #dce3eb; }
+#projects { background-color: #f1f5f9; }
+.project { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; background: white; border-radius: 8px; align-items: center; }
+.project-image { border-radius: 4px; }
+.project-copy p { margin-bottom: 14px; }
+.text-link { font-weight: 700; }
+#contact { border-top: 1px solid #dce3eb; }
+footer { text-align: center; padding: 20px; background-color: #202c3a; color: #fff; }
+footer p { margin: 0; }
+.skip-link { position: absolute; top: -100px; left: 16px; background: white; padding: 10px 18px; z-index: 1; }
+.skip-link:focus { top: 8px; }
+@media (max-width: 700px) {
+    .about-layout { grid-template-columns: 1fr; gap: 24px; }
+    .profile { width: 180px; }
+    .project { grid-template-columns: 1fr; }
+    nav li { margin: 0 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+}

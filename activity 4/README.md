@@ -1,0 +1,33 @@
+# Activity 04 — Personal Portfolio
+
+Repository: https://github.com/rusteez101sr/user-interfaces
+
+Project directory: `activity 4/`
+
+The website is not published to GitHub Pages.
+
+This activity uses plain HTML and CSS; no installation or build is needed.
+Open `index.html` to view the page locally.
+
+## Files
+
+- `index.html`: navigation, About Me, Projects, Contact, and footer; internal and inline CSS examples.
+- `style.css`: external CSS, including element, class, and ID selectors and responsive layouts.
+- `images/profile.jpg`: the GitHub avatar for rusteez101sr.
+- `images/labflow.jpg`: conceptual LabFlow workflow diagram.
+- `images/ocr-rag.jpg`: conceptual OCR/RAG pipeline diagram.
+- `images/project1.jpg`: the original portfolio wireframe.
+- `portfolio-wireframe.excalidraw`: editable layout sketch; open it in Excalidraw.
+- `images.zip`: compressed image folder requested in the handout.
+- `activity04-submission.zip`: HTML, CSS, images, and editable wireframe for submission.
+
+## Before submitting
+
+The handout asks for a photo of yourself. Replace `images/profile.jpg` with your own photo, update its alt text and caption in `index.html`, and regenerate both ZIP files. The current image is your GitHub avatar, not a personal photograph. Review the short biography for accuracy.
+
+Submit the live portfolio URL and `index.html`, `style.css`, and the images folder to Canvas (or the submission ZIP if the upload accepts archives).
+
+## GitHub Pages
+
+This project is stored in the private `user-interfaces` repository under `activity 4/`. GitHub Pages hosting has not been configured.
+Only the website files, this README, and the layout sketch belong in the repository; the supplied course PDFs are not published.

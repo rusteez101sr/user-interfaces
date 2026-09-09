@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rishit Dwivedi's personal portfolio for SE/COMS 3190, featuring LabFlow, an Extern OCR/RAG AI pipeline, and contact information.">
+    <title>Rishit Dwivedi | Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Internal CSS: layout rules, as requested in Activity 04. -->
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccd5df;
+            padding: 20px;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 32px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <a class="skip-link" href="#about">Skip to content</a>
+    <header>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" aria-labelledby="about-title">
+            <div class="container about-layout">
+                <div class="about-copy">
+                    <p class="eyebrow">PERSONAL PORTFOLIO / 2026</p>
+                    <h1 id="about-title">Rishit Dwivedi<span class="accent">.</span></h1>
+                    <p class="role">Web Development Student</p>
+                    <!-- Inline CSS: the third styling method used in this activity. -->
+                    <p style="font-family: 'Courier New', Courier, monospace; color: brown;">Welcome to SE/COMS 3190!</p>
+                    <p>I’m Rishit, a student in SE/COMS 3190. I’m learning to build web interfaces with HTML and CSS, with a focus on clear structure, readable content, and easy navigation.</p>
+                    <p>This portfolio brings together my coursework and a place to share what I’m building.</p>
+                </div>
+                <figure class="profile">
+                    <img src="./images/profile.jpg" alt="Rishit Dwivedi's green geometric GitHub avatar" width="420" height="420">
+                    <figcaption>@rusteez101sr · GitHub avatar</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <p class="eyebrow">01 / SELECTED PROJECTS</p>
+                <h2 id="projects-title">Projects</h2>
+                <article class="project">
+                    <img class="project-image" src="./images/labflow.jpg" alt="LabFlow concept diagram connecting lab checkpoints, student progress, and TA feedback" width="1200" height="780">
+                    <div class="project-copy">
+                        <p class="eyebrow">COMS 3090 · ANDROID + SPRING BOOT</p>
+                        <h3>LabFlow</h3>
+                        <p>A lab management and feedback platform designed to bring lab instructions, progress tracking, deadlines, and resources into one place.</p>
+                        <p>The project proposes guided checkpoints for students and tools for teaching assistants to review submissions, provide feedback, and manage grades. Its planned stack includes an Android app in Java, a Spring Boot backend, and MySQL.</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <img class="project-image" src="./images/ocr-rag.jpg" alt="OCR and RAG concept diagram: documents, text extraction, retrieval, and AI responses" width="1200" height="780">
+                    <div class="project-copy">
+                        <p class="eyebrow">EXTERN · ARTIFICIAL INTELLIGENCE</p>
+                        <h3>OCR &amp; RAG AI Pipeline</h3>
+                        <p>An AI document-processing project combining optical character recognition (OCR) with retrieval-augmented generation (RAG).</p>
+                        <p>The pipeline connects text extraction from documents with retrieval of relevant content to support AI-generated responses grounded in that content.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <p class="eyebrow">02 / GET IN TOUCH</p>
+                <h2 id="contact-title">Contact Me</h2>
+                <p>You can reach me at <a href="mailto:dwivedi.rishit06@gmail.com">dwivedi.rishit06@gmail.com</a>.</p>
+                <p>Find my code on <a href="https://github.com/rusteez101sr">GitHub</a>.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Rishit Dwivedi</p>
+    </footer>
+</body>
+</html>
