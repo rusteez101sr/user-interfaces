@@ -4,7 +4,7 @@ Repository: https://github.com/rusteez101sr/user-interfaces
 
 Project directory: `activity 4/`
 
-The website is not published to GitHub Pages.
+Portfolio URL: https://rusteez101sr.github.io/user-interfaces/activity%204/
 
 This activity uses plain HTML and CSS; no installation or build is needed.
 Open `index.html` to view the page locally.
@@ -29,5 +29,5 @@ Submit the live portfolio URL and `index.html`, `style.css`, and the images fold
 
 ## GitHub Pages
 
-This project is stored in the private `user-interfaces` repository under `activity 4/`. GitHub Pages hosting has not been configured.
+This project is stored in the public `user-interfaces` repository under `activity 4/`. GitHub Pages serves the root of the `main` branch.
 Only the website files, this README, and the layout sketch belong in the repository; the supplied course PDFs are not published.
