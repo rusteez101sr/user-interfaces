@@ -13,7 +13,7 @@ Open `index.html` to view the page locally.
 
 - `index.html`: navigation, About Me, Projects, Contact, and footer; internal and inline CSS examples.
 - `style.css`: external CSS, including element, class, and ID selectors and responsive layouts.
-- `images/profile.jpg`: the GitHub avatar for rusteez101sr.
+- `images/profile.jpg`: Rishit Dwivedi’s supplied profile photo.
 - `images/labflow.jpg`: conceptual LabFlow workflow diagram.
 - `images/ocr-rag.jpg`: conceptual OCR/RAG pipeline diagram.
 - `images/project1.jpg`: the original portfolio wireframe.
@@ -23,7 +23,7 @@ Open `index.html` to view the page locally.
 
 ## Before submitting
 
-The handout asks for a photo of yourself. Replace `images/profile.jpg` with your own photo, update its alt text and caption in `index.html`, and regenerate both ZIP files. The current image is your GitHub avatar, not a personal photograph. Review the short biography for accuracy.
+The supplied personal photo is included. Review the short biography for accuracy.
 
 Submit the live portfolio URL and `index.html`, `style.css`, and the images folder to Canvas (or the submission ZIP if the upload accepts archives).
 
